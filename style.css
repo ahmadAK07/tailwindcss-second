@@ -1,0 +1,57 @@
+*{
+    font-family: 'Titillium Web';
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+#first-section{
+    background-image: url('lower-painting.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+#first-section>div>div:nth-child(1){
+    background-image: url('banner.png');
+    background-size:center;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    
+}
+#first-section .container>div{
+    width: 50%;
+    border: 1px solid yellow;
+    height: 100%;
+}
+#banner-2{
+    background-image: url('banner-2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+#fifth-section{
+    background-image: url('upper-painting.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+#sixth-section .banner-3{
+    background-image: url('banner-3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#ninth-section .banner-4{
+    background-image: url('service.jpg');
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width: 500px) {
+    #first-section>div>div:nth-child(1){
+        background-image: url('banner.png');
+        background-size: 115%;
+        background-position: 50% 0;
+    }   
+}
