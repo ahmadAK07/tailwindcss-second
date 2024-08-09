@@ -1,10 +1,28 @@
 *{
     font-family: 'Titillium Web';
     margin: 0;padding: 0;box-sizing: border-box;
+    transition: all .3s;
 }
 body{
     position: relative;
 }
+.btn-shadow:hover{
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.btn-shadow-2:hover{
+    box-shadow: 0px 0px 10px  rgb(250, 204, 21);
+    text-shadow: 0px 0px 1px black;
+}
+.cards-hovered:hover{
+    transform: translateY(-20px);
+}
+.cards-hovered-2:hover{
+    transform: translateY(-10px);
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
 #first-section{
     background-image: url('lower-painting.jpg');
     background-size: cover;
